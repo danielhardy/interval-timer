@@ -23,6 +23,7 @@
 <div
 	class="flex flex-col items-center justify-center h-screen"
 	class:bg-green-400={t.isIntervalRunning}
+	class:text-gray-900={t.isIntervalRunning}
 >
 	<div class="w-full max-w-lg">
 		<h1 class="flex-1 text-[18em] font-bold text-center">{t.time}</h1>
